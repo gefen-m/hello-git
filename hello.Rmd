@@ -9,6 +9,11 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r}
+set.seed(84)
 xs <- sample(1:250, 25)
 xs
+```
+
+```{r}
+median(xs)
 ```
